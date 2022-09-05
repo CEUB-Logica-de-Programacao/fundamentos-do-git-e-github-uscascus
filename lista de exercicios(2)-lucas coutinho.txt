@@ -1,0 +1,73 @@
+#lista de exercicio questao (1) feito por lucas coutinho
+A = float(input("escreva o valor de A"))
+B = float(input("escreva o valor de B"))
+while A == 0 and B == 0:
+    A = float(input("valor invalido escreva novamente o valor de A"))
+    B = float(input("valor invalido escreva novamente o valor de B"))
+if A != 0 and B != 0:
+    print (A/B)
+
+
+#lista de exercicio questao (2) feito por lucas coutinho
+continua = True
+
+while continua:
+    nota_1 = -1
+    while 0 > nota_1 or nota_1 >10:
+        nota_1 = float(input("digite a sua primeira nota"))
+        
+    nota_2 = -1
+    while 0 > nota_2 or nota_2 >10:
+        nota_2 = float(input("digite a sua primeira nota"))
+        
+    print("a media e de:", (nota_1+nota_2)/2)
+    resposta = input("novo cauculor (S/N)")
+    if resposta == "N":
+        continua = False
+
+
+#lista de exercicio questao (3) feito por lucas coutinho
+for x in range(11):
+    print(x)
+
+
+#lista de exercicio questao (4) feito por lucas coutinho
+for x in range(11,1,-1):
+    print(x)
+
+
+#lista de exercicio questao (5) feito por lucas coutinho
+for x in range(100,111,+1):
+    print(x)
+
+
+#lista de exercicio questao (6,7) feito por lucas coutinho
+a = 0
+while a == 0:
+    a = int(input("escreva um valor"))
+    for x in range(a+1):
+        print(x)
+
+
+#lista de exercicio questao (8) feito por lucas coutinho
+a = 10
+for x in range(1,a+1):
+    print(x*8)
+
+
+#lista de exercicio questao (9) feito por lucas coutinho
+a = 0
+while a == 0:
+    a = int(input("escreva o valor"))
+    y = int(input("escreva o valor no qual deseja multiplicar o numero escolhido"))
+    for x in range(1,a+1):
+        print(x*y)
+
+
+#lista de exercicio questao (10) feito por lucas coutinho
+a = 0
+for x in range (10):
+    x = int(input("escolha os numeros"))
+    if x < 0:
+        a = a+1
+print(a,"valores negativos")
