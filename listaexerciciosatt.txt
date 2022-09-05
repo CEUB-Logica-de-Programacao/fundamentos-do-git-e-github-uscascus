@@ -1,0 +1,344 @@
+#questâo 1 da lista de exercicios
+def area_retangulo()
+    print(insira os dados que for pedido para caucular a  base de um retangulo)
+    # altura e tamanho da base
+    x = int(input(coloque a base do retangulo ))
+    y = int(input(coloque a altura do retangulo))
+    print(x  y, esta e a sua area)
+
+area_retangulo()
+
+def perimetro_retangulo()
+    print(insira os dados para caucular o perimetro do retangulo)
+    #perimetro_retangulo
+    a = int(input(coloque a altura))
+    b = int(input(coloque a base))
+    print(perimetro =,a + b  2)
+
+perimetro_retangulo()
+
+
+#questâo 2 da lista de exercicios
+def area_quadrado()
+    print(Dado o tamanho do lado de um quadrado, calcular a área e o perímetro do mesmo)
+    
+    print(caucule a area do quadrado inserindo as informaçôes pedidas)
+    x = int(input(coloque o valor do lado do quadrado))
+    print(altura =,x2 )
+    
+area_quadrado()
+
+def perimetro_quadrado()
+    print(para caucular o perimetro insira os dados pedidos)
+    x = int(input(insira o valor do lado))
+    print(perimetro =,x4)
+    
+perimetro_quadrado()
+
+
+#questâo numero 3 da lista de exercicios
+def area_circunferencia()
+    print(insira os dados pedidos para caucular a area da circunferencia)
+    x = float(input(coloque o valor do raio))
+    print(area =,(x2)3.14)
+    
+area_circunferencia()
+
+def perimetro_circunferencia()
+    print (para caucular o perimetro da circunferencia insira os dados pedidos)
+    y = float(input(coloque o valor do raio))
+    print(perimetro =,23.14y)
+    
+perimetro_circunferencia()
+
+
+
+#questâo numero 4 da lista de exercicios
+def perimetro_triangulo()
+    print(para caucular o perimetro do triangulo insira os dados pedidos)
+    x = float(input(coloque o valor do primeiro lado do triangulo))
+    y = float(input(coloque o valor do segundo lado do triangulo))
+    z = float(input(coloque o valor do terceiro lado do triangulo))
+    print(perimetro =,x+y+z)
+    
+    
+perimetro_triangulo()
+    
+
+
+#questao numero 5 da lista de exercicios
+print (para saber o sucessor de um numero insira-o abaixo)
+x = int(input(insira o numero quer voce quer descobrir o sucessor))
+print(o sucessor do numero escolido e =,x+1)
+
+
+
+#questao numero 6 da lista de de exercicios
+def divisao_inteira()
+    print(para saber o quociente e resto da divisâo de dois numeros inteiros insira os abaixo)
+    x = int(input(insira o primeiro numero))
+    y = int(input(insira o segundo numero))
+    print(o valor inteiro de divisâo e =,xy)
+
+divisao_inteira()
+
+def divisao_com_resto()
+    print(para realizar uma divisao de inteiros e saber o resto de sua divisao insira os dados abaixo)
+    x = int(input(insira o primeiro numero))
+    y = int(input(insira o segundo numero))
+    print(o valor inteiro de divisâo com resto e =,x%y)
+    
+divisao_com_resto()
+
+
+#questâo numero 7 da lista de exercicios
+# (Solicitar a idade de uma pessoa em dias e informar na tela a idade em anos, meses e dias. )
+def idade()
+    x = float(input(insira sua idade em dias))
+    anos = x365
+    meses = ((x%365)30)
+    dias = ((x%365)%30)
+    print(sua idade em anos =, anos ,sua idade em meses =, meses ,sua idade em dias =, dias)
+
+idade()
+
+
+questão 8:
+print ("Este programa converte a temperatura Fahrenheit para temperatura Celsius")
+f= float(input("Insira a temperatura em Fahrenheit "))
+celsius = 5/9*(f-32)
+print ("A temperatura em celsius é:",celsius)
+
+questão 9:
+print ("Este programa calcula o volume de uma lata com base em seu raio e sua altura")
+raio = float(input("Insira o valor do raio da lata"))
+altura = float(input("Insira o valor da altura da lata"))
+b = 3.14*(raio**2)
+volume = b*altura
+print ("O volume da lata é:",volume)
+
+questão 10: 
+print ("Este programa diz a idade em dias depois de ser informado quantos anos e quantos a pessoa viveu")
+anos = int(input("Insira quantos anos"))
+meses = int(input("Insira quantos meses"))
+dias1 = anos*365
+dias2 = meses*30
+print ("Sua idade em dias baseada em quantos anos você viveu é:",dias1)
+print ("Sua idade em dias baseada em quantos meses você viveu é:",dias2)
+
+questão 11:
+print ("Este programa calcula a porcentagem de votos de um município baseado em quantos votos foram feitos")
+brancos = int(input("insira quantos votos brancos foram depositados"))
+nulos = int(input("Insira quantos votos nulos foram efetuados"))
+validos = int(input("Insira quantos votos foram válidos"))
+
+total = brancos + nulos + validos 
+porcentagembrancos = (brancos/total)*100
+porcentagemnulos = (nulos/total)*100
+porcetagemvalidos = (validos/total)*100
+
+print ("O percentual de votos brancos é de",porcentagembrancos,", o percentual de votos nulos é de",porcentagemnulos,"e o percentual de votos válidos é de:",porcetagemvalidos)
+
+questão 12:
+print ("Este programa calcula o salário mensal de um funcionário depois de um reajuste salárial")
+salario = float(input("Informe o salário mensal"))
+reajuste = float(input("Informe o reajuste"))
+novosalario = salario + (salario*reajuste)/100
+print ("O salário mensal após o reajuste será de:", novosalario)
+
+questão 13:
+print ("Este programa calcula o preço final de um carro novo")
+preçobruto = float(input("Informe o valor de fabricação do carro"))
+umporcento = preçobruto/100
+distribuidor = umporcento*28
+impostos = umporcento*45
+preçofinal = preçobruto+distribuidor+impostos
+print ("O valor do carro novo é:",preçofinal)
+
+questão 14:
+salariofixo = float(input("Insira o valor do salário fixo do vendedor"))
+comissaoporcarrobruta = 500 # estipulando comissão fixa por carro 
+quantidadedecarrosvendidos = int(input("Quantos carros foram vendidos?"))
+quantidadedevendas = float(input("Insira o valor total das vendas"))
+umporcentoquantidadedevendas = quantidadedevendas/100
+quantidadedevendassalarial = umporcentoquantidadedevendas * 5
+comissaofinal = comissaoporcarrobruta * quantidadedecarrosvendidos
+salariofinal = salariofixo + quantidadedevendassalarial + comissaofinal
+print ("O salário final do vendedor é:",salariofinal)
+
+questão 15:
+x = float(input("Insira um valor"))
+if x > 10:
+    print ("É MAIOR QUE 10")
+else:
+    print ("NÃO É MAIOR QUE 10")
+questão 16 :
+x = float(input("Insira um valor"))
+if x >= 0:
+    print ("Número positivo")
+else:
+    print ("Número negativo")
+
+questão 17:
+print ("Este programa vende maçãs")
+print ("1 maçã = R$:1,30")
+print ("12+ maçãs = R$:1,00")
+x = int (input("Quantos maçãs serão compradas?"))
+if x >= 12:
+    preço = x * 1
+    print ("O preço em reais é:",preço)
+else:
+    preço = x * 1.30
+    print ("O preço em reais é:",preço)
+
+questão 18:
+notaum = float(input("Insira a primeira nota"))
+notadois = float(input("Insira a segunda nota"))
+media = (notaum+notadois)/2
+if media >= 6:
+    print ("Sua média é:",media)
+    print ("Você está aprovado")
+else:
+    print ("Sua média é:",media)
+    print ("Você está reprovado")
+
+questão 19:
+anodenascimento = int(input("Qual seu ano de nascimento?"))
+anoatual = int(input("Qual o ano atual"))
+idadeatual = anoatual - anodenascimento
+if idadeatual >= 18:
+    print ("Você está ápito a votar esse ano")
+else:
+    print ("Você não está ápito a votar esse ano")
+
+questão 20:
+x = float (input("Insira um valor"))
+y = float (input("Insira um segundo valor"))
+if x > y:
+    print ("Os valores em ordem crescente são:",y,x)
+else:
+    print ("OS valores em ordem crescente são:",x,y)
+
+questão 21:
+inicio = int(input("Que horas o jogo começou?"))
+fim = int(input("Que horas o jogo terminou?"))
+if fim < inicio :
+    duracao = (24-inicio) + fim
+    print ("O total de horas jogadas foi de:",duracao)
+else :
+    if fim > inicio :
+        duracao = fim - inicio 
+        print ("O total de horas jogadas foi de:",duracao)
+    else :
+        if fim == inicio:
+            duracao = 24
+            print ("O total de horas jogadas foi de:",duracao)
+
+questão 22:
+salariobase = float(input("Insira o valor do salário fixo"))
+totaldevendas = float(input("Insira o total de vendas"))
+umporcento = totaldevendas/100
+if totaldevendas >1500:
+    comissao = umporcento*3
+    comissaoextra = umporcento*5 
+    salariototal = salariobase+comissaoextra+comissao
+    print ("O salário total será de:",salariototal)
+else:
+    comissao = umporcento*3
+    salariototal = salariobase+comissao
+    print ("O salário total será de:",salariototal)
+
+questão 23:
+conta = input("informe o número da conta")
+saldo = float (input("Informe o saldo da conta"))
+credito = float (input("Informe o crédito da conta"))
+debito = float (input("Informe o débito em conta"))
+saldoatual = saldo - debito + credito 
+if saldoatual >= 0:
+    print ("Seu saldo atual é:",saldoatual)
+    print ("Saldo Positivo ")
+else:
+    print ("Seu saldo atual é:",saldoatual)
+    print ("Saldo Negativo")
+
+questão 24:
+quantidadeatual = int (input("Informe a quantidade atual em estoque"))
+quantidademaxima = int (input("Informe a quantidade máxima permitida no estoque"))
+quantidademinima = int (input ("Informe a quantidade mínima permitida no estoque"))
+quantidademedia = (quantidademaxima + quantidademinima)/2 
+if quantidademedia =< quantidadeatual:
+    print ("Não efetuar compra")
+else:
+    print ("Efetuar compra")
+
+questão 25:
+x = int(input("Insira um valor"))
+y = int(input("Insira um segundo valor"))
+z = int(input("Insira um terceiro valor"))
+
+numeros=[x , y , z]
+
+print ("Os valores em ordem crescente são:",sorted(numeros))
+
+questão 26:
+print ("Este programa recebe os lados de um triângulo e verifica se a formação do triângulo é verdadeiro ou não")
+ladoum = float (input("Insira o valor de um lado"))
+ladodois = float (input("Insira o valor do segundo lado"))
+ladotres = float (input("Insira o valor do terceiro lado"))
+verificaçaoum = ladoum+ladodois
+verificaçaodois = ladoum+ladotres
+verificaçaotres = ladodois+ladotres
+if ladoum < verificaçaotres:
+    if ladodois < verificaçaodois:
+        if ladotres < verificaçaoum:
+            print ("A formação do triângulo é verdadeira")
+        else:
+            print ("A formação do triângulo é falsa")
+    else: 
+        print ("A formação do triângulo é falsa")
+else:
+    print ("A formação do triângulo é falsa")
+
+questão 27:
+timeum = input("Qual o nome do primeiro time?")
+timedois = input("Qual o nome do segundo time?")
+goltimeum = int(input("Quantos gols o primeiro time fez?"))
+goltimedois = int(input("Quantos gols o segundo time fez?"))
+if goltimeum == goltimedois :
+    
+    print("EMPATE")
+    
+else:
+    if goltimeum>goltimedois:
+        print ("O vencedor foi o",timeum)
+    else:
+        if goltimedois>goltimeum :
+            print ("O vencedor foi o",timedois)
+        else:
+            print("EMPATE")
+
+questão desafio:
+codigo = input("Insira o código de identificação")
+nascimento = int(input("Em que ano você nasceu?"))
+egresso = int(input("Em que ano você ingressou na empresa?"))
+idade = 2022 - nascimento
+tempodecarreira = 2022 - egresso
+if idade >= 65 :
+    print ("Sua idade é:",idade)
+    print ("Seu tempo de carreira é:",tempodecarreira)
+    print ("REQUERER APOSENTADORIA")
+else:
+    if tempodecarreira >= 30:
+        print ("Sua idade é",idade)
+        print ("Seu tempo de carreira é",tempodecarreira)
+        print ("REQUERER APOSENTADORIA")
+    else:
+        if idade >= 60:
+            if tempodecarreira >= 25:
+                print ("Sua idade é",idade)
+                print ("Seu tempo de carreira é",tempodecarreira)
+                print ("REQUERER APOSENTADORIA")
+            else:
+                print ("NÃO REQUERER APOSENTADORIA")
+        else:
+            print ("NÃO REQUERER APOSENTADORIA")
